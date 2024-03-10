@@ -153,7 +153,7 @@
             });
 
             $(".contact-item svg").on("click",function(event){
-                switch(event.target.id){
+                switch(event.currentTarget.id){
                     case 'github':
                         window.open('https://github.com/srikanthKorukonda1996');
                         break;
@@ -165,7 +165,6 @@
                         break;
                     case 'twitter':
                         window.open('https://twitter.com/KkKorukonda');
-                        break;                        
                 }
             })
         })
